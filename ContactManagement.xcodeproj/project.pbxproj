@@ -99,13 +99,9 @@
 		0026E5881E56C85300F61456 /* ContactManagement */ = {
 			isa = PBXGroup;
 			children = (
-				0026E5891E56C85300F61456 /* AppDelegate.swift */,
-				0026E58B1E56C85300F61456 /* ViewController.swift */,
-				0026E58D1E56C85300F61456 /* Main.storyboard */,
-				0026E5931E56C85300F61456 /* Assets.xcassets */,
-				0026E5951E56C85300F61456 /* LaunchScreen.storyboard */,
-				0026E5981E56C85300F61456 /* Info.plist */,
-				0026E5901E56C85300F61456 /* ContactManagement.xcdatamodeld */,
+				0026E5BA1E56C8A900F61456 /* Classes */,
+				0026E5BE1E56C95B00F61456 /* Resources */,
+				0026E5C01E56C9E600F61456 /* Supporting Files */,
 			);
 			path = ContactManagement;
 			sourceTree = "<group>";
@@ -126,6 +122,114 @@
 				0026E5AE1E56C85300F61456 /* Info.plist */,
 			);
 			path = ContactManagementUITests;
+			sourceTree = "<group>";
+		};
+		0026E5BA1E56C8A900F61456 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0026E5BB1E56C8C200F61456 /* Common */,
+				0026E5BF1E56C99F00F61456 /* Modules */,
+				0026E5891E56C85300F61456 /* AppDelegate.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0026E5BB1E56C8C200F61456 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0026E5BC1E56C8D300F61456 /* Store */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		0026E5BC1E56C8D300F61456 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				0026E5BD1E56C8DF00F61456 /* Entities */,
+				0026E5901E56C85300F61456 /* ContactManagement.xcdatamodeld */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		0026E5BD1E56C8DF00F61456 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		0026E5BE1E56C95B00F61456 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0026E58D1E56C85300F61456 /* Main.storyboard */,
+				0026E5951E56C85300F61456 /* LaunchScreen.storyboard */,
+				0026E5931E56C85300F61456 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0026E5BF1E56C99F00F61456 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0026E5C21E56CA4E00F61456 /* Add */,
+				0026E5C11E56CA4700F61456 /* List */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		0026E5C01E56C9E600F61456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0026E5981E56C85300F61456 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0026E5C11E56CA4700F61456 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0026E5C31E56CAF800F61456 /* Application Logic */,
+				0026E5C41E56CB2400F61456 /* Module Interface */,
+				0026E5C51E56CB2F00F61456 /* User Interface */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		0026E5C21E56CA4E00F61456 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		0026E5C31E56CAF800F61456 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		0026E5C41E56CB2400F61456 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Module Interface";
+			sourceTree = "<group>";
+		};
+		0026E5C51E56CB2F00F61456 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0026E5C61E56CB5100F61456 /* View */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		0026E5C61E56CB5100F61456 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0026E58B1E56C85300F61456 /* ViewController.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
